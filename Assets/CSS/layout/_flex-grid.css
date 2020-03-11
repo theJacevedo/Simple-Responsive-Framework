@@ -1,0 +1,21 @@
+/* flex-grid */ 
+
+.flex-grid { 
+        display: flex;
+        flex-direction: column; 
+}
+
+.col{ 
+ flex: 1;
+
+}
+
+@media screen and (min-width: 320px) {
+
+    
+        .flex-grid {
+                flex-direction: row;
+        }
+
+
+}
